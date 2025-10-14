@@ -6,7 +6,7 @@
             "hub": "NightOwl_Hub",
             "extruder": "extruder",
             "buffer": "TN",
-            "buffer_status": "Unknown",
+            "buffer_status": "Advancing",
             "lane": 1,
             "map": "T0",
             "load": false,
@@ -25,7 +25,7 @@
             "filament_status": "Not Ready",
             "filament_status_led": "#ff0000",
             "status": "None",
-            "dist_hub": 90.0
+            "dist_hub": 65.0
         },
         "lane2": {
             "name": "lane2",
@@ -33,7 +33,7 @@
             "hub": "NightOwl_Hub",
             "extruder": "extruder",
             "buffer": "TN",
-            "buffer_status": "Unknown",
+            "buffer_status": "Advancing",
             "lane": 2,
             "map": "T1",
             "load": false,
@@ -52,7 +52,7 @@
             "filament_status": "Not Ready",
             "filament_status_led": "#ff0000",
             "status": "None",
-            "dist_hub": 160.0
+            "dist_hub": 65.0
         }
     },
     "system": {
@@ -62,7 +62,7 @@
         "num_extruders": 1,
         "extruders": {
             "extruder": {
-                "lane_loaded": null
+                "lane_loaded": ""
             }
         },
         "bypass": {
